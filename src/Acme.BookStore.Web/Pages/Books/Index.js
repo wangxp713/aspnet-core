@@ -84,7 +84,7 @@
 
     editModal.onResult(function () {
         dataTable.ajax.reload();
-    };
+    });
 
     $('#NewBookButton').click(function (e) {
         e.preventDefault();
