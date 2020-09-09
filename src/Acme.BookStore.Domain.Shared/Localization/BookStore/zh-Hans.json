@@ -3,8 +3,18 @@
   "texts": {
     "Menu:Home": "首页",
     "Welcome": "欢迎",
-    "LongWelcomeMessage": "欢迎来到该应用程序. 这是一个基于ABP框架的启动项目. 有关更多信息, 请访问 abp.io."
+    "LongWelcomeMessage": "欢迎来到该应用程序. 这是一个基于ABP框架的启动项目. 有关更多信息, 请访问 abp.io.",
+
+    "Menu:BookStore": "书店",
+    "Menu:Books": "书籍",
+
+    "Permission:BookStore": "书店",
+    "Permission:Books": "书籍管理",
+    "Permission:Books.Create": "创建",
+    "Permission:Books.Edit": "编辑",
+    "Permission:Books.Delete": "删除"
   },
   "BookDeletionConfirmationMessage": "您确定要删除 '{0}'?",
-  "SuccessfullyDeleted": "删除成功!"
+  "SuccessfullyDeleted": "删除成功!",
+  "BookStore:00001": "已存在相同的名字: {name}"
 }

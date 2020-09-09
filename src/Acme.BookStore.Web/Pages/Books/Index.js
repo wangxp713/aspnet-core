@@ -17,12 +17,14 @@
                         items: [
                             {
                                 text: l('Edit'),
+                                visible: abp.auth.isGranted('BookStore.Books.Edit'),//check for the permission
                                 action: function (data) {
                                     editModal.open({ id: data.record.id })
                                 }
                             },
                             {
                                 text: l('Delete'),
+                                visible: abp.auth.isGranted('BookStore.Books.Delete'),//check for the permission
                                 confirmMessage: function (data) {
                                     return l('BookDeletionConfirmationMessage', data.record.name);
                                 },
