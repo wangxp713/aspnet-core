@@ -1,4 +1,5 @@
-﻿using Acme.BookStore.Books;
+﻿using Acme.BookStore.Authors;
+using Acme.BookStore.Books;
 using AutoMapper;
 
 namespace Acme.BookStore
@@ -11,7 +12,10 @@ namespace Acme.BookStore
              * Alternatively, you can split your mapping configurations
              * into multiple profile classes for a better organization. */
             CreateMap<Book, BookDto>();
+
             CreateMap<CreateUpdateBookDto, Book>();
+
+            CreateMap<Author, AuthorDto>();
         }
     }
 }

@@ -12,7 +12,13 @@
     "Permission:Books": "书籍管理",
     "Permission:Books.Create": "创建",
     "Permission:Books.Edit": "编辑",
-    "Permission:Books.Delete": "删除"
+    "Permission:Books.Delete": "删除",
+
+    "Permission:Authors": "作者管理",
+    "Permission:Authors.Create": "创建",
+    "Permission:Authors.Edit": "编辑",
+    "Permission:Authors.Delete": "删除"
+
   },
   "BookDeletionConfirmationMessage": "您确定要删除 '{0}'?",
   "SuccessfullyDeleted": "删除成功!",
