@@ -7,6 +7,9 @@
 
     "Menu:BookStore": "书店",
     "Menu:Books": "书籍",
+    "Menu:Authors": "作者",
+    "Authors": "作者",
+    "NewAuthor": "新建",
 
     "Permission:BookStore": "书店",
     "Permission:Books": "书籍管理",
@@ -17,10 +20,13 @@
     "Permission:Authors": "作者管理",
     "Permission:Authors.Create": "创建",
     "Permission:Authors.Edit": "编辑",
-    "Permission:Authors.Delete": "删除"
+    "Permission:Authors.Delete": "删除",
+    "AuthorDeletionConfirmationMessage": "您确定要删除此作者 '{0}'吗?",
+    "BookDeletionConfirmationMessage": "您确定要删除 '{0}'?",
+    "SuccessfullyDeleted": "删除成功!",
+    "BookStore:00001": "已存在相同的名字: {name}",
 
-  },
-  "BookDeletionConfirmationMessage": "您确定要删除 '{0}'?",
-  "SuccessfullyDeleted": "删除成功!",
-  "BookStore:00001": "已存在相同的名字: {name}"
+    "Name": "姓名",
+    "BirthDate": "出生日期"
+  }
 }
